@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRISP-DM | Watsons Beauty Analytics</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-logo">Buqra An Fardeena</div>
+  <ul class="nav-links">
+    <li><a href="#intro">Home</a></li>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#example">Case Study</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+
+<div class="floating-emojis">🧴 💄 ✨ 💅 🛍️</div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Watsons E-Commerce</h1>
+  <h2>Customer Analysis</h2>
+  <h3>Case Study</h3>
+  <p>CRISP-DM Analytics</p>
+  <button onclick="scrollToSection('intro')">Explore Methodology</button>
+</section>
+
+<!-- INTRODUCTION -->
+<section id="intro" class="glass-section">
+  <h2>Introduction</h2>
+  <div class="glass-card">
+    <p>
+      CRISP-DM (Cross-Industry Standard Process for Data Mining) is a widely adopted
+      data science methodology used to convert raw data into meaningful business insights.
+      It provides a structured, iterative, and business-oriented framework for analytics projects.
+    </p>
+
+    <h3>Definition and Origin</h3>
+    <p>
+      CRISP-DM was developed in the late 1990s by IBM, Daimler-Benz, SPSS, and NCR
+      to establish a standardized approach to data mining across industries.
+      Its primary objective is to ensure that data analytics projects remain aligned
+      with business goals while allowing flexibility and iteration.
+    </p>
+
+    <h3>Problem Statement</h3>
+    <p>
+      Watsons Malaysia operates in a highly competitive beauty and personal care market.
+      Maintaining customer loyalty among Gen Z consumers has become increasingly challenging.
+      This study applies the CRISP-DM methodology to identify key factors influencing
+      customer satisfaction and loyalty for data-driven decision-making.
+    </p>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section id="methodology" class="glass-section">
+  <h2>CRISP-DM Methodology Overview</h2>
+  <div class="card-grid">
+    <div class="glass-card">
+      <h4>Business Understanding</h4>
+      <p>
+        Focuses on project objectives from a business perspective.
+      </p>
+    </div>
+
+    <div class="glass-card">
+      <h4>Data Understanding</h4>
+      <p>
+        Initial data collection and exploring the quality of data.
+      </p>
+    </div>
+
+    <div class="glass-card">
+      <h4>Data Preparation</h4>
+      <p>
+        Cleaning and transforming raw data into a final dataset.
+      </p>
+    </div>
+
+    <div class="glass-card">
+      <h4>Modeling</h4>
+      <p>
+        Selecting and applying various statistical techniques (e.g., Regression).
+      </p>
+    </div>
+
+    <div class="glass-card">
+      <h4>Evaluation</h4>
+      <p>
+       Determining if the results actually meet the business goals.
+      </p>
+    </div>
+
+    <div class="glass-card">
+      <h4>Deployment</h4>
+      <p>
+       Presenting the final report and implementing changes.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- PURPOSE -->
+<section class="glass-section">
+  <h2>Purpose and Applications</h2>
+  <div class="glass-card">
+    <p>
+      CRISP-DM is used to ensure analytics projects produce actionable outcomes
+      aligned with business needs. It is commonly applied in retail analytics,
+      healthcare, finance, marketing, and fraud detection.
+    </p>
+  </div>
+</section>
+
+<!-- CASE STUDY -->
+<section id="example" class="glass-section">
+  <h2>Real-World Case Study: Watsons Malaysia</h2>
+  <div class="card-grid">
+    <div class="glass-card">
+      <h4>Phase 1 Output</h4>
+      <p>Clear definition of loyalty-related business challenges.</p>
+    </div>
+    <div class="glass-card">
+      <h4>Phase 2 Output</h4>
+      <p>Validated dataset of 150 Gen Z respondents.</p>
+    </div>
+    <div class="glass-card">
+      <h4>Phase 3 Output</h4>
+      <p>Cleaned and structured survey dataset.</p>
+    </div>
+    <div class="glass-card">
+      <h4>Phase 4 Output</h4>
+      <p>Regression model identifying key influencing variables.</p>
+    </div>
+    <div class="glass-card">
+      <h4>Phase 5 Output</h4>
+      <p>Model confirmed satisfaction mediates loyalty.</p>
+    </div>
+    <div class="glass-card">
+      <h4>Final Output</h4>
+      <p>
+        Watsons should prioritize competitive pricing and store convenience
+        to improve satisfaction and long-term loyalty among Gen Z consumers.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CHART -->
+<section class="glass-section">
+  <h2>CRISP-DM Impact</h2>
+  <div class="chart-box">
+    <canvas id="salesChart"></canvas>
+  </div>
+</section>
+
+<!-- ADVANTAGES & LIMITATIONS -->
+<section class="glass-section">
+  <h2>Advantages and Limitations</h2>
+  <div class="card-grid">
+    <div class="glass-card">
+      <h4>Advantages</h4>
+      <ul>
+        <li>Business-oriented</li>
+        <li>Industry neutral</li>
+        <li>Flexible and iterative</li>
+        <li>Widely adopted</li>
+      </ul>
+    </div>
+    <div class="glass-card">
+      <h4>Limitations</h4>
+      <ul>
+        <li>No specific algorithm guidance</li>
+        <li>Time-consuming for small projects</li>
+        <li>Requires domain expertise</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRY -->
+<section class="glass-section">
+  <h2>Industry Adoption</h2>
+  <div class="glass-card">
+    <p>
+      CRISP-DM is widely used by companies such as IBM, Amazon, Netflix,
+      banks, healthcare institutions, and retail organizations
+      for data-driven decision-making.
+    </p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-me">
+  <h2>Hey World, I'm Buqra An</h2>
+  <div class="about-image">
+    <img src="profile.jpg" alt="Buqra An">
+  </div>
+  <p>
+    I am a Bachelor’s student in Data Science (AI) at UniMAP with a Diploma in
+    Computer Engineering. This website demonstrates CRISP-DM through a real-world
+    analytics case study.
+  </p>
+</section>
+
+<!-- REFERENCES -->
+<section id="references" class="glass-section">
+  <h2>References</h2>
+  <div class="glass-card">
+    <ul>
+      <li>Chapman et al. (2000). CRISP-DM 1.0</li>
+      <li>IBM Analytics</li>
+      <li>Watsons Group</li>
+      <li>Utama et al. (2023). Customer Satisfaction at Watsons Malaysia</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 | Buqra An</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
